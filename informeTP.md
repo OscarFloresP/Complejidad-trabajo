@@ -72,9 +72,9 @@ del juego se realizará el uso de diferentes algoritmos enfocados a la optimizac
 
 Estado del Arte:
 Desde la creación de las computadoras, se ha investigado mucho sobre las tareas que estas pueden realizar y así se llegó a la implementación de las inteligencias 
-artificiales que hoy en día conocemos como tal. Sin embargo, detrás de cada una se encuentran una serie de algoritmos que hacen posible su funcionamiento y de las 
+artificiales que hoy en día conocemos. Sin embargo, detrás de cada una se encuentran una serie de algoritmos que hacen posible su funcionamiento y de las 
 cuales se explicará en las siguientes líneas. Si nos enfocamos en el funcionamiento de algoritmos dentro de las IA, podemos usar a los juegos con ̈bots ̈ programados 
-como ejemplo para entender mejor su uso. 
+como ejemplo para entender mejor su uso.
 
 Primero, tenemos a un algoritmo llamado MINMAX, que define a las decisiones del jugador oponente como decisiones óptimas y tendrá que basarse en esta dificultad, por 
 lo que si el jugador oponente es inexperto este perderá fácilmente. Luego, está el algoritmo "Primero el mejor" que se caracteriza por su búsqueda y elección de caminos, 
@@ -131,6 +131,7 @@ de manera simple, en el caso de nuestro ejercicio el camino a escoger sera lo mi
 
 Conclusiones:
 
+En conclusión, los algoritmos de busquedas en grafos nos permiten formar la base para que una inteligencia artificial pueda funcionar, como es el caso del algoritmo BFS que nos permite explorar posibles soluciones evitando la redundancia; también con el algoritmo de dijsktra que nos permite optimizar el numero de busquedas a las mínimas posibles y asi se ahorra el consumo de memoria. También, descubrimos que las inteligencias artificiales aprenden más rápido en este tipo de proyectos y la dificultad de vencerlos siempre será alta, ya que estas preveen cualquier tipo de situación y decisión que nosotros como personas podemos tomar.
 
 
-
+    
