@@ -35,10 +35,11 @@ Estado del Arte
 
 Metodología
 
+Experimentos 
 
+Resultados
 
-
-
+Conclusiones
 
 
 
@@ -99,3 +100,13 @@ así poder acorralar al enemigo y se le complique el paso. En el presente proyec
 ganar o hasta hacer que pierda contra la IA. Como que, si los dos se encuentran a la misma distancia de llegar hasta el otro extremo, la IA piense si es más factible 
 que se mueva o que ponga una pared para cortarle el paso sin que le juegue en contra a la IA, también se puede ver si la IA va perdiendo en pasos, le ponga paredes hasta 
 que lo acorrale y el jugador tenga más pasos que dar para llegar hasta el otro extremo.
+
+Experimentos: 
+
+Resultados:
+
+Conclusiones:
+
+
+
+
