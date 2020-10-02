@@ -102,8 +102,32 @@ que se mueva o que ponga una pared para cortarle el paso sin que le juegue en co
 que lo acorrale y el jugador tenga más pasos que dar para llegar hasta el otro extremo.
 
 Experimentos: 
+Algoritmo bfs
+def bfs(G, s):
+    n = len(G)
+    color = ['white']n
+    d = [math.inf]n
+    f = [None]*n
+    Q = Queue()
 
+    color[s] = 'gray'
+    d[s] = 0
+    Q.put(s)
+    while not Q.empty():
+        u = Q.get()
+        for v in G[u]:
+            if color[v] == 'white':
+                color[v] = 'gray'
+                d[v] = d[u] + 1
+                f[v] = u
+                Q.put(v)
+        color[u] = 'black'
+
+    return f, d, color
+    
 Resultados:
+Se espera que mediante el algoritmo de dijsktra y el bfs la IA pueda optar por los caminos que le resulten mas cortos, sabiendo que el algoritmo de dijsktra es un bfs con pesos 
+de manera simple, en el caso de nuestro ejercicio el camino a escoger sera lo mismo para los dos, ya que no contamos con pesos en las aristas. 
 
 Conclusiones:
 
