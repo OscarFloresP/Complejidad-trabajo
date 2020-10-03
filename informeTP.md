@@ -133,5 +133,10 @@ Conclusiones:
 
 En conclusión, los algoritmos de busquedas en grafos nos permiten formar la base para que una inteligencia artificial pueda funcionar, como es el caso del algoritmo BFS que nos permite explorar posibles soluciones evitando la redundancia; también con el algoritmo de dijsktra que nos permite optimizar el numero de busquedas a las mínimas posibles y asi se ahorra el consumo de memoria. También, descubrimos que las inteligencias artificiales aprenden más rápido en este tipo de proyectos y la dificultad de vencerlos siempre será alta, ya que estas preveen cualquier tipo de situación y decisión que nosotros como personas podemos tomar.
 
-
+Referencias Bibliográficas 
+Russell, S. J., & Norvig, P. (2004). Inteligencia Artificial: un enfoque moderno (No. 04; Q335, R8y 2004.).
+García, A. (2012). Inteligencia Artificial. Fundamentos, práctica y aplicaciones. Rc Libros.
+Nilsson, N. J., Morales, R. M., Méndez, J. T. P., & Aris, E. P. (2001). Inteligencia artificial: una nueva síntesis (Vol. 2). España.: McGraw-Hill.
+Urribarrı, W. (2007). Verificación formal asistida por computador de algoritmos de búsqueda en profundidad y en amplitud (Doctoral dissertation, Master’s Thesis, Universidad Simón Bolıvar,(2 2007)).
+Coto, E. (2003). Algoritmos básicos de grafos. Lecturas en Ciencias de computación. ISSN 1316, 6239.
     
