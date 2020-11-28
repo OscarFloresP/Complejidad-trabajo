@@ -76,14 +76,22 @@ artificiales que hoy en día conocemos. Sin embargo, detrás de cada una se encu
 cuales se explicará en las siguientes líneas. Si nos enfocamos en el funcionamiento de algoritmos dentro de las IA, podemos usar a los juegos con ̈bots ̈ programados 
 como ejemplo para entender mejor su uso.
 
-Primero, tenemos a un algoritmo llamado MINMAX, que define a las decisiones del jugador oponente como decisiones óptimas y tendrá que basarse en esta dificultad, por 
-lo que si el jugador oponente es inexperto este perderá fácilmente. Luego, está el algoritmo "Primero el mejor" que se caracteriza por su búsqueda y elección de caminos, 
-ya que este no escoge caminos en base a las interacciones sino las escoge en base a los caminos más óptimos. Por ejemplo en el popular juego "Pacman", donde los fantasmas 
-buscan un camino corto para atrapar al jugador.
+MINMAX:
+Primero, tenemos a un algoritmo llamado MINMAX, que define a las decisiones del jugador oponente como decisiones óptimas y tendrá que basarse en esta dificultad, por lo que si el jugador oponente es inexperto este perderá fácilmente. Luego, está el algoritmo "Primero el mejor" que se caracteriza por su búsqueda y elección de caminos, ya que este no escoge caminos en base a las interacciones sino las escoge en base a los caminos más óptimos. Por ejemplo en el popular juego "Pacman", donde los fantasmas buscan un camino corto para atrapar al jugador.
 
-Por último, existen momentos en todo juego donde las decisiones a tomar son muy amplias y el estar probando todas sería un desperdicio de memoria y aquí entra el algoritmo 
-"Poda alfa-beta", que mejora los límites colocados por el algoritmo MINMAX, ya que define a los límites dentro de un rango infinito para ambos extremos y solo se reducirá 
-si es que un nodo tiende a ser menor, reduciendo así a menores búsquedas.
+Por último, existen momentos en todo juego donde las decisiones a tomar son muy amplias y el estar probando todas sería un desperdicio de memoria y aquí entra el algoritmo "Poda alfa-beta", que mejora los límites colocados por el algoritmo MINMAX, ya que define a los límites dentro de un rango infinito para ambos extremos y solo se reducirá si es que un nodo tiende a ser menor, reduciendo así a menores búsquedas.
+
+BFS:
+El bfs es un algoritmo de búsqueda inconsciente que se usa para recorrer o buscar elementos en el gráfico (a menudo se usa en árboles). Intuitivamente, uno comienza desde la raíz (en el caso de un gráfico, se selecciona un determinado nodo como elemento raíz) y se exploran todos los vecinos de ese nodo. Luego, para cada vecino, se escanearan sus respectivos vecinos, y así sucesivamente, hasta que se atraviese todo el árbol.
+
+Hablando formalmente, BFS es un algoritmo de búsqueda sin información que puede expandir y verificar sistemáticamente todos los nodos del árbol para encontrar soluciones. El algoritmo no utiliza estrategias heurísticas.
+
+
+Dijkstra:
+El algoritmo de Dijkstra (también conocido como el algoritmo de ruta mínima) es un algoritmo utilizado para determinar la ruta más corta al resto de los vértices en el gráfico para el que cada vértice tiene un peso, dado el vértice original. Su nombre hace referencia a Edsger Dijkstra, un informático holandés, concebido en 1956 y publicado por primera vez en 1959.
+
+La idea básica del algoritmo es explorar todos los caminos más cortos comenzando desde el vértice de origen y conduciendo a todos los demás vértices. El algoritmo se detendrá cuando se obtenga el camino más corto desde el origen hasta el resto de los vértices que constituyen el gráfico. Esta es una especialidad de la búsqueda de costo uniforme. Por lo tanto, no es adecuada para gráficos con bordes de costo negativos al seleccionar siempre el nodo con la distancia más pequeña, los nodos pueden excluirse de la búsqueda, porque en iteraciones futuras, los nodos reducirán el costo total por el lado del costo negativo.
+
 
 Metodología:
 Cómo funciona el juego
@@ -128,6 +136,11 @@ def bfs(G, s):
 Resultados:
 Se espera que mediante el algoritmo de dijsktra y el bfs la IA pueda optar por los caminos que le resulten mas cortos, sabiendo que el algoritmo de dijsktra es un bfs con pesos 
 de manera simple, en el caso de nuestro ejercicio el camino a escoger sera lo mismo para los dos, ya que no contamos con pesos en las aristas. 
+
+Referencias: 
+https://github.com/techwithtim/Python-Checkers
+https://github.com/alainrinder/quoridor.py
+
 
 Conclusiones:
 
